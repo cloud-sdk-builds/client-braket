@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-braket`](https://www.npmjs.com/package/@aws-sdk/client-braket/v/3.72.0).
+[`@aws-sdk/client-braket`](https://www.npmjs.com/package/@aws-sdk/client-braket/v/3.74.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-braket@3.72.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-braket@3.74.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-DdngSyWA96ls7ayhrqDR3uplaadL2ZeFwi4V8OZBMOBjzug/2v/D+JNGXP5GY5qy
+sha384-eAZy174zj0MIuNWXzk8N/Z3v4Ea2u4sM8iSLn+2jma49oUmzrY+zwXufIJvH2I8s
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-braket": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-braket@3.72.0/index.min.mjs"
+            "@aws-sdk/client-braket": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-braket@3.74.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-braket@3.72.0/index.min.mjs": "sha384-DdngSyWA96ls7ayhrqDR3uplaadL2ZeFwi4V8OZBMOBjzug/2v/D+JNGXP5GY5qy"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-braket@3.74.0/index.min.mjs": "sha384-eAZy174zj0MIuNWXzk8N/Z3v4Ea2u4sM8iSLn+2jma49oUmzrY+zwXufIJvH2I8s"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-braket": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-braket@3.72.0/index.min.mjs"
+                        "@aws-sdk/client-braket": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-braket@3.74.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-braket@3.72.0/index.min.mjs": "sha384-DdngSyWA96ls7ayhrqDR3uplaadL2ZeFwi4V8OZBMOBjzug/2v/D+JNGXP5GY5qy"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-braket@3.74.0/index.min.mjs": "sha384-eAZy174zj0MIuNWXzk8N/Z3v4Ea2u4sM8iSLn+2jma49oUmzrY+zwXufIJvH2I8s"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.72.0`)
+* Always pin to a specific version (`@3.74.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-braket/blob/refs/tags/3.72.0/LICENSE
+https://github.com/cloud-sdk-builds/client-braket/blob/refs/tags/3.74.0/LICENSE
 ```
 
 ---
